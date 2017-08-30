@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Paisajes</title>
+<link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+	<link rel="stylesheet" href="css/paisajes.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+    <b class="menu">Comenzando con la fotografía</b>
+    <a href="index.html">Inicio</a>
+    <a href="paisajes.html">Paisajes</a>
+    <a href="retratos.html">Retratos</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  </header>
+  <div class="wrapper">
+    <div id="main">
+      <img id="img1" src="images/img2.jpg" width="500px">
+      <img id="img2" src="images/img2.jpg" width="500px">
+      <img id="img3" src="images/img2.jpg" width="500px">
+      <br>
+      <br>
+      <img id="img4" src="images/img2.jpg" width="500px">
+      <img id="img5" src="images/img2.jpg" width="500px">
+      <img id="img6" src="images/img2.jpg" width="500px">
+    </div>
+  </div>
+  <footer>
+    <section id=disponible>
+    <div class="contenedor">
+      <div>
+        Contacto<br>
+        ramonhidalgo@gmail.com<br>
+        tel. 1234567890
+      </div>
+      <div>
+        Terminos y Condiciones
+      </div>
+      <div>
+        <img src="images/fb.png" style="max-width:50px">
+      </div>
+      <div>
+        Ramon Hidalgo<br>
+        Copyright<br>
+        2017
+      </div>
+    </div>
+  </section>
+  </footer>
+</body>
+</html>
